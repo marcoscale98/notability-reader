@@ -14,7 +14,7 @@ def unpack_colors(string):
 
 
 if __name__ == '__main__':
-    filename = os.path.relpath("bdb_transazioni/Session.plist")
+    filename = os.path.relpath("../bdb_transazioni/Session.plist")
     with open(filename, "rb") as fp:
         pl = plistlib.load(fp)
         data = pl['$objects'][8]
