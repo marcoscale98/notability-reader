@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application version</key>
+	<string>3804</string>
+	<key>last-recording</key>
+	<integer>3</integer>
+	<key>library-format-version</key>
+	<string>1.0</string>
+	<key>recordings</key>
+	<dict>
+		<key>1</key>
+		<dict>
+			<key>createddate</key>
+			<date>2019-04-01T07:11:04Z</date>
+			<key>duration</key>
+			<real>1200.4252154195012</real>
+			<key>filepath</key>
+			<string>Recording 1.m4a</string>
+			<key>filesize</key>
+			<integer>4865708</integer>
+			<key>filetype</key>
+			<string>m4a</string>
+			<key>identifier</key>
+			<integer>1</integer>
+			<key>name</key>
+			<string>Recording 1</string>
+		</dict>
+		<key>2</key>
+		<dict>
+			<key>createddate</key>
+			<date>2019-04-01T07:31:05Z</date>
+			<key>duration</key>
+			<real>1200.4252154195012</real>
+			<key>filepath</key>
+			<string>Recording 2.m4a</string>
+			<key>filesize</key>
+			<integer>4867001</integer>
+			<key>filetype</key>
+			<string>m4a</string>
+			<key>identifier</key>
+			<integer>2</integer>
+			<key>name</key>
+			<string>Recording 2</string>
+		</dict>
+		<key>3</key>
+		<dict>
+			<key>createddate</key>
+			<date>2019-04-01T07:51:05Z</date>
+			<key>duration</key>
+			<real>289.18131519274374</real>
+			<key>filepath</key>
+			<string>Recording 3.m4a</string>
+			<key>filesize</key>
+			<integer>1169212</integer>
+			<key>filetype</key>
+			<string>m4a</string>
+			<key>identifier</key>
+			<integer>3</integer>
+			<key>name</key>
+			<string>Recording 3</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
