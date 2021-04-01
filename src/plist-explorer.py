@@ -1,3 +1,4 @@
+import os
 import plistlib
 import struct
 import numpy as np
@@ -13,7 +14,8 @@ def unpack_colors(string):
 
 
 if __name__ == '__main__':
-    with open("../bdb_transazioni/Session.plist", "rb") as fp:
+    filename = os.path.relpath("bdb_transazioni/Session.plist")
+    with open(filename, "rb") as fp:
         pl = plistlib.load(fp)
         data = pl['$objects'][8]
         points = data['curvespoints']
