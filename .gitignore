@@ -362,3 +362,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,pycharm,jetbrains,python
+/13_retiNeurali-17-48/
+/13_retiNeurali-17-48.note
