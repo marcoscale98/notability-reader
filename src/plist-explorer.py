@@ -9,7 +9,7 @@ def unpack_struct(string, fmt):
 
 
 def unpack_colors(string):
-    sublists = [x for x in string]
+    sublists = list(string)
     return [list(i) for i in [sublists[i:i + 4] for i in range(0, len(sublists), 4)]]
 
 
@@ -27,7 +27,7 @@ if __name__ == '__main__':
         unpacked_points = unpack_struct(points, 'f')
         unpacked_numpoints = unpack_struct(curvesnumpoints, 'i')
         unpacked_curveswidth = unpack_struct(curveswidth, 'f')
-        unpacked_curvescolors = [x for x in curvescolors]  # List of sublists of RGBA values
+        unpacked_curvescolors = list(curvescolors)
         unpacked_curvesfractionalwidths = unpack_struct(curvesfractionalwidths, 'f')
         unpacked_eventTokens = unpack_struct(eventTokens, 'f')
         # Now we have unpacked all of the points, time to do the rest
